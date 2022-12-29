@@ -20,6 +20,10 @@ it('file upload demo' , ()=>{
     //The file should be in cypress/fixtures/
     cy.get('[id="uploadfile_0"]').attachFile('logoSpotify.jpg')
     cy.get('#submitbutton').click()
+    
+    
 })
+
+
 
 })
